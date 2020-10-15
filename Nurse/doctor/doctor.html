@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>个人信息完善</title>
+	
+
+	<link rel="stylesheet" type="text/css" href="doctor.css"/>
+    <script type="text/javascript" src="doctor.js"></script>
+</head>
+
+<body>
+	<div id="change_frame">
+	
+		<form method="post" action="doctor.js">
+	
+			<p><label class="label_input">工号</label><input type="text" id="userid" class="text_field"/></p>
+			<p><label class="label_input">密码</label><input type="text" id="password" class="text_field"/></p>
+			<p><label class="label_input">姓名</label><input type="text" id="name" class="text_field"/></p>
+			<p><label class="label_input">问题</label><input type="text" id="question" class="text_field"/></p>
+			<p><label class="label_input">答案</label><input type="text" id="answer" class="text_field"/></p>			
+			<div id="change_control">
+				<input type="button" id="btn_change" value="确认修改" onclick="change();"/>
+
+			</div>
+		</form>
+	</div>
+</body>
+
+</html>

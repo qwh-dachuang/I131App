@@ -14,7 +14,7 @@ function login() {
 
     } else if(username.value == "nurse" && pass.value == "123456"){
 
-        window.location.href="welcome.html";
+        window.location.href="../homepage/homepage.html";
 
     } else {
 
